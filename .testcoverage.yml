@@ -1,0 +1,12 @@
+profile: cover.out
+
+threshold:
+  file: 90
+  package: 90
+  total: 95
+
+exclude:
+  paths:
+    # demo code, exercised by the screenshot generator and smoke tests only
+    - example/
+    - internal/showcase
